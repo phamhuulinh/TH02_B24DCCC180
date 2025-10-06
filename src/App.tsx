@@ -9,7 +9,12 @@ const App: React.FC = () => {
   return (
     <Router>
       <div style={{ padding: 20 }}>
-        <nav style={{ marginBottom: 20, 
+        <nav style={{ marginBottom: "60px", 
+                      position: "fixed",
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      width: "100%",
                       display: "flex",
                       gap: "20px",
                       padding: "10px 0",
