@@ -22,6 +22,7 @@ const App: React.FC = () => {
         </nav>
 
         <Routes>
+          <Route path="" element={<Weather />} />
           <Route path="/weather" element={<Weather />} />
           <Route path="/students" element={<Students />} />
           <Route path="/news" element={<News />} />
